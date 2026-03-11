@@ -1,25 +1,25 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Siddharth",
+        fullName: "Siddharth Gadhave",
+        title: "Full Stack Developer",
+        description: "Full Stack Developer and student at Army Institute of Technology Pune with a passion for development, constant learning, leadership, and graphic design."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "https://github.com/sidharthgadhave04-arch",
+        email: "sidharthgadhave04@gmail.com",
+        location: "Maharashtra, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am Siddharth Gadhave, currently a student at Army Institute of Technology Pune. I have a deep interest in development, constantly learning new technologies, and exercising leadership. Outside of code I enjoy graphic designing and exploring creative ways to solve problems. I'm always eager to grow and collaborate on meaningful projects."
     },
     experiences: [
         {
             position: "Learning Something New",
             company: "Self-Development",
             period: "2025 - Present",
-            location: "Bangladesh",
+            location: "Maharashtra, India",
             description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
             responsibilities: [
                 "Researching cutting-edge AI and ML technologies",
@@ -30,10 +30,21 @@ export const config = {
             technologies: ["Research", "Innovation", "Open Source", "New Tech"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Campus Ambassador",
+            period: "2024",
+            location: "IIT Mandi, India",
+            description: "Participated in the GUESS India Campus Ambassador program, representing the brand within the IIT Mandi community.",
+            responsibilities: [
+                "Promoted GUESS India events and initiatives on campus",
+                "Engaged with students through workshops and outreach"
+            ],
+            technologies: []
+        },
+        {
+            position: "Full Stack Developer",
+            company: "Army Institute of Technology, Pune",
             period: "2025",
-            location: "Bangladesh",
+            location: "Maharashtra, India",
             description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
             responsibilities: [
                 "Building AI-powered chatbots and conversational agents",
@@ -45,9 +56,9 @@ export const config = {
         },
         {
             position: "Full-Stack Developer",
-            company: "Freelance & Projects",
+            company: "Army Institute of Technology, Pune",
             period: "2024",
-            location: "Bangladesh",
+            location: "Maharashtra, India",
             description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
             responsibilities: [
                 "Developing full-stack web applications using React and Node.js",
@@ -58,10 +69,10 @@ export const config = {
             technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
+            position: "C\+\+ Explorer",
+            company: "Army Institute of Technology, Pune",
+            period: "2025",
+            location: "Maharashtra, India",
             description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
             responsibilities: [
                 "Learning Python programming and core concepts",
@@ -75,7 +86,7 @@ export const config = {
             position: "Graphic Designer",
             company: "Freelance",
             period: "2022",
-            location: "Bangladesh",
+            location: "Maharashtra, India",
             description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
             responsibilities: [
                 "Designing logos and brand identity materials",
@@ -89,7 +100,7 @@ export const config = {
             position: "Microsoft Office",
             company: "Begin Learning",
             period: "2021",
-            location: "Bangladesh",
+            location: "Maharashtra, India",
             description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
             responsibilities: [
                 "Learning Microsoft Word, Excel, and PowerPoint",
@@ -107,7 +118,7 @@ export const config = {
             category: "AI / LLM",
             technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
             image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            description: "Maharashtra, India's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
         },
         {
             id: 2,
@@ -147,7 +158,7 @@ export const config = {
             category: "AI / ML",
             technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
             image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            description: "A flood prediction model specifically designed for Maharashtra, India's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
         },
         {
             id: 7,
@@ -164,15 +175,23 @@ export const config = {
             technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
             image: "/images/hektools.png",
             description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+        },
+        {
+            id: 9,
+            title: "Brainbell",
+            category: "AI Assistant",
+            technologies: "React, Node.js, AI, Firebase",
+            image: "/images/brainbell.png",
+            description: "An AI assistant for students. Visit https://brainbell1.netlify.app for access."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "sidharthgadhave04@gmail.com",
+        github: "https://github.com/sidharthgadhave04-arch",
+        linkedin: "",
+        twitter: "",
+        facebook: "",
+        instagram: "https://www.instagram.com/siddharth18x"
     },
     skills: {
         develop: {
