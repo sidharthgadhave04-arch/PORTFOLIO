@@ -87,11 +87,11 @@ export const config = {
     ],
     projects: [
         {
-            title: "Brainbell",
+            id: 1, title: "Brainbell",
             category: ["AI", "React", "Node.js", "Education"],
             image: "/images/brainbell.png",
             description: "An AI-powered study assistant for students with personalized study plans, AI-curated resources, and time management tools.",
-            link: "https://brainbell1.netlify.app",
+            technologies: "React, Node.js, AI", link: "https://brainbell1.netlify.app",
             github: "https://github.com/sidharthgadhave04-arch"
         }
     ],
