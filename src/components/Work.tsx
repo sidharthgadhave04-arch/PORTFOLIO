@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
   useEffect(() => {
-    // Disable pinning on mobile to allow scrolling
     if (window.innerWidth <= 768) return;
 
     let translateX: number = 0;
@@ -49,15 +48,14 @@ const Work = () => {
       ease: "none",
     });
 
-    // Refresh ScrollTrigger after layout settles
     ScrollTrigger.refresh();
 
-    // Clean up
     return () => {
       timeline.kill();
       ScrollTrigger.getById("work")?.kill();
     };
   }, []);
+
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -70,13 +68,12 @@ const Work = () => {
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
-
                   <div>
                     <h4>{project.title}</h4>
-                    <p>{project.category}</p>
+                    <p>{project.category.join(" · ")}</p>
                   </div>
                 </div>
-                <h4>An AI Assistant for Students</h4>
+                <h4>{project.description}</h4>
                 <p>{project.technologies}</p>
               </div>
               <WorkImage image={project.image} alt={project.title} link={project.link} />

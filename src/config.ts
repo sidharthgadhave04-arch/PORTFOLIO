@@ -54,7 +54,6 @@ export const config = {
             ],
             technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
         },
-        
         {
             position: "C++ Explorer",
             company: "Army Institute of Technology, Pune",
@@ -83,7 +82,6 @@ export const config = {
             ],
             technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
         },
-        
     ],
     projects: [
         {
@@ -92,6 +90,14 @@ export const config = {
             image: "/images/brainbell.png",
             description: "An AI-powered study assistant for students with personalized study plans, AI-curated resources, and time management tools.",
             technologies: "React, Node.js, AI", link: "https://brainbell1.netlify.app",
+            github: "https://github.com/sidharthgadhave04-arch"
+        },
+        {
+            id: 2, title: "SupermarketGo",
+            category: ["React", "Node.js", "MongoDB", "Full Stack"],
+            image: "/images/supermart.png",  // ✓ if file is in public/images/
+            description: "A full-stack supermarket billing and inventory management system with an admin panel to create, modify, delete products, track stock, and view total sales.",
+            technologies: "React, Node.js, MongoDB", link: "https://supermarketgo.vercel.app",
             github: "https://github.com/sidharthgadhave04-arch"
         }
     ],
@@ -118,5 +124,3 @@ export const config = {
         }
     }
 };
-
-
